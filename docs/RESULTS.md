@@ -271,8 +271,8 @@ place_away: without the auxiliary predictor the token cost prefers the arm-only 
 open-loop rollout error grows by about 60%. These are single training runs at 40k, not the released 100k models, so
 the closed-loop differences between variants are not conclusive.
 
-At 60k the simplest variant shows the same pattern: pick 40.7 vs 18.3, place_away 13.0 vs 31.3 (Senku), arm-only
-frame cheaper 0.49 vs 0.14.
+At 60k / 100k the simplest variant shows the same pattern: pick 40.7 / 48.0 vs 18.3 / 28.0, place_away 13.0 / 10.7
+vs 31.3 / 29.7 (Senku), arm-only frame cheaper 0.49 / 0.51 vs 0.14 / 0.13.
 
 ### Other parts
 
