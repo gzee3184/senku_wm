@@ -271,15 +271,8 @@ place_away: without the auxiliary predictor the token cost prefers the arm-only 
 open-loop rollout error grows by about 60%. These are single training runs at 40k, not the released 100k models, so
 the closed-loop differences between variants are not conclusive.
 
-The simplest variant trained further shows the same pattern at 60k (6 seeds; LeWM's protocol 4 seeds; H-JEPA's tasks
-1 seed):
-
-| Model at 60k | LeWM's protocol | pick | hard_far | place_away | H-JEPA's tasks | Arm-only frame cheaper | Rollout error, g / tokens |
-|---|---|---|---|---|---|---|---|
-| Senku (all parts) | 86.5 | 18.3 | 17.7 | **31.3** | 52 | **0.14** | **0.119 / 0.199** |
-| plain predictor, no auxiliary predictor | 86.0 | **40.7** | **41.3** | 13.0 | **78** | 0.49 | 0.175 / 0.274 |
-
-It reaches and grasps better on short goals by following the arm, and it is worse at placing a held cube.
+At 60k the simplest variant shows the same pattern: pick 40.7 vs 18.3, place_away 13.0 vs 31.3 (Senku), arm-only
+frame cheaper 0.49 vs 0.14.
 
 ### Other parts
 
