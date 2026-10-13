@@ -1,0 +1,7 @@
+__pycache__/
+*.pt
+*.h5
+runs/
+*.egg-info/
+.ruff_cache/
+.pytest_cache/

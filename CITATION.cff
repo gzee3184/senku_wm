@@ -1,0 +1,104 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: 'Senku: a world model with a global latent and state tokens'
+type: software
+authors:
+- family-names: Abrar
+  given-names: Gazi Fahim
+  affiliation: University of Minnesota
+repository-code: https://github.com/gzee3184/senku_wm
+license: MIT
+version: 0.1.0
+date-released: '2026-10-13'
+keywords:
+- world model
+- joint-embedding predictive architecture
+- planning
+- self-supervised learning
+references:
+- type: article
+  title: 'LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels'
+  authors:
+  - family-names: Maes
+    given-names: Lucas
+  - family-names: Le Lidec
+    given-names: Quentin
+  - family-names: Scieur
+    given-names: Damien
+  - family-names: LeCun
+    given-names: Yann
+  - family-names: Balestriero
+    given-names: Randall
+  year: 2026
+  url: https://arxiv.org/abs/2603.19312
+- type: article
+  title: 'H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning'
+  authors:
+  - family-names: Zhang
+    given-names: Wancong
+  - family-names: Terver
+    given-names: Basile
+  - family-names: Rabbat
+    given-names: Michael
+  - family-names: LeCun
+    given-names: Yann
+  - family-names: Balestriero
+    given-names: Randall
+  year: 2026
+  url: https://arxiv.org/abs/2610.06805
+- type: article
+  title: 'LpWM: A Case for Sparse Representations in World Models'
+  authors:
+  - family-names: Kuang
+    given-names: Yilun
+  - family-names: Dagade
+    given-names: Yash
+  - family-names: Le Lidec
+    given-names: Quentin
+  - family-names: Maes
+    given-names: Lucas
+  - family-names: Balestriero
+    given-names: Randall
+  - family-names: LeCun
+    given-names: Yann
+  year: 2026
+  url: https://arxiv.org/abs/2608.22764
+- type: article
+  title: 'LeJEPA: Provable and Scalable Self-Supervised Learning Without the Heuristics'
+  authors:
+  - family-names: Balestriero
+    given-names: Randall
+  - family-names: LeCun
+    given-names: Yann
+  year: 2025
+  url: https://arxiv.org/abs/2511.08544
+- type: article
+  title: Scalable Diffusion Models with Transformers
+  authors:
+  - family-names: Peebles
+    given-names: William
+  - family-names: Xie
+    given-names: Saining
+  year: 2022
+  url: https://arxiv.org/abs/2212.09748
+- type: article
+  title: Sample-efficient Cross-Entropy Method for Real-time Planning
+  authors:
+  - family-names: Pinneri
+    given-names: Cristina
+  year: 2020
+  url: https://arxiv.org/abs/2008.06389
+- type: article
+  title: 'An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale'
+  authors:
+  - family-names: Dosovitskiy
+    given-names: Alexey
+  year: 2020
+  url: https://arxiv.org/abs/2010.11929
+- type: article
+  title: Early Convolutions Help Transformers See Better
+  authors:
+  - family-names: Xiao
+    given-names: Tete
+  year: 2021
+  url: https://arxiv.org/abs/2106.14881
